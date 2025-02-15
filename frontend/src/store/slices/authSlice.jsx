@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/auth';
+const API_URL = 'https://todo-app-backend-wa4v.onrender.com/api/auth';
 
 export const register = createAsyncThunk(
   'auth/register',
